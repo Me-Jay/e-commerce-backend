@@ -39,6 +39,7 @@ router.get('/clear', async (request, response, next) => {
                 status: FAILURE
             })
         }
+       
 
         return response.json({
             status: SUCCESS
